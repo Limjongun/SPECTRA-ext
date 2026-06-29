@@ -1,4 +1,4 @@
-# SPECTRA 🎨⚡
+# SPECTRA
 
 **SPECTRA** is a next-generation, AI-assisted Chrome Extension designed for Frontend Developers, UI/UX Designers, and creative professionals. It transforms the way you extract, analyze, and reuse design systems from any website on the internet. 
 
@@ -6,15 +6,15 @@ Unlike traditional web inspectors, SPECTRA goes beyond merely showing CSS proper
 
 ---
 
-## ✨ Current Features (v2.0)
+## Current Features (v2.0)
 
-### 🔍 1. Design DNA Scanner
+### 1. Design DNA Scanner
 Extract the core design tokens of any webpage with a single click:
 - **Color Palette Extraction**: Automatically harvests Primary, Secondary, Background, and Text colors.
 - **Typography Analysis**: Identifies Font Families, font sizes, and weights used across the page.
 - **Instant Export**: Export the extracted design tokens directly as a `tailwind.config.js` theme object or native CSS Variables (`:root`).
 
-### 🖱️ 2. Visual Component Inspector (JSX Engine)
+### 2. Visual Component Inspector (JSX Engine)
 Say goodbye to inspecting elements manually and guessing Tailwind classes:
 - **Interactive Overlay**: An intuitive, floating blue overlay highlights components as you move your cursor (inspired by Chrome DevTools).
 - **Deep Component Extraction (Recursive JSX)**: Clicking on a complex element (like a Product Card or Navbar) doesn't just extract the outer `<div>`. SPECTRA recursively parses the entire DOM tree, including children, images, and texts.
@@ -24,7 +24,7 @@ Say goodbye to inspecting elements manually and guessing Tailwind classes:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 SPECTRA is built entirely with modern web technologies, running 100% locally in your browser with **zero backend dependencies**.
 
@@ -38,7 +38,7 @@ SPECTRA is built entirely with modern web technologies, running 100% locally in 
 
 ---
 
-## 🚀 How It Works Under the Hood
+## How It Works Under the Hood
 
 1. **Content Scripts Injection**: When activated, SPECTRA injects a highly optimized content script (`content.ts`) into the active webpage.
 2. **CSSOM Parsing**: The engine (`colorEngine.ts` and `typographyEngine.ts`) iterates through the DOM, calculating the computed styles (CSSOM) of visible elements to intelligently deduce the primary design system.
@@ -47,7 +47,7 @@ SPECTRA is built entirely with modern web technologies, running 100% locally in 
 
 ---
 
-## 📦 Installation & Development
+## Installation & Development
 
 Since SPECTRA is built with Vite, developing and building the extension is incredibly fast.
 
@@ -76,10 +76,10 @@ Since SPECTRA is built with Vite, developing and building the extension is incre
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 - **Phase 8**: Local Component Library (UI Scrapbook) - Save extracted components locally to a personal library.
 - **Phase 9**: Live Component Playground - Edit Tailwind classes directly in a floating CodePen-like environment before exporting.
 
 ---
 
-*Built with ❤️ for the modern frontend ecosystem.*
+*Built for the modern frontend ecosystem.*
